@@ -1,5 +1,5 @@
 Note:
-  This module is a clone of http://code.google.com/p/mod-auth-token/ 
+  This repository is a clone of http://code.google.com/p/mod-auth-token/ 
   with the GlobalProtectedPath patch from Jared Sprague @ Red Hat applied.
   (http://code.google.com/p/mod-auth-token/issues/detail?id=7)
 
