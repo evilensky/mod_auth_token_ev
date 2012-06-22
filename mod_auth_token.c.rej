@@ -1,0 +1,18 @@
+*** mod_auth_token.c.orig	2010-05-07 12:49:10.243475583 -0400
+--- mod_auth_token.c	2010-05-07 15:10:24.202444038 -0400
+***************
+*** 56,61 ****
+  	conf->prefix_len = 0;
+  	conf->timeout = 60;		/* 60 second timeout per default */
+          conf->checkip = 0;		/* Disabling IP check by default */ 
+  	return conf;
+  }
+  
+--- 57,63 ----
+  	conf->prefix_len = 0;
+  	conf->timeout = 60;		/* 60 second timeout per default */
+          conf->checkip = 0;		/* Disabling IP check by default */ 
++         conf->globaltoken = 0;          /* Disabled global token by default */
+  	return conf;
+  }
+  
