@@ -1,3 +1,20 @@
+Note:
+  This module is a clone of http://code.google.com/p/mod-auth-token/ 
+  with the GlobalProtectedPath patch from Jared Sprague @ Red Hat applied.
+
+  To rebuild for your platform, follow instructions on Google Code site.
+  If you run into problems, do
+    rm -f configure
+    autoreconf -fi
+    automake -f
+  Then
+    ./configure
+    ./make
+    ./make install
+  
+
+
+Original Readme is below:
 
   This module uses token based authentication to secure downloads 
   and prevent deep-linking. 
